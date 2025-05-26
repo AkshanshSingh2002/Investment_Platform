@@ -4,22 +4,19 @@ import Awards from './Awards.jsx';
 import Stats from './Stats.jsx';
 import Pricing from './Pricing.jsx';
 import Education from './Education.jsx';
-
-import Navbar from '../Navbar.jsx';
-import Footer from '../Footer.jsx';
 import OpenAccount from '../OpenAccount.jsx';
 
 function HomePage() {
     return ( 
         <>
-            <Navbar />
+            
             <Hero />
             <Awards />
             <Stats />
             <Pricing />
             <Education />
             <OpenAccount />
-            <Footer />
+            
         </>
      );
 }
