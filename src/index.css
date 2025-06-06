@@ -70,3 +70,36 @@ button:focus-visible {
     background-color: #f9f9f9;
   }
 }
+
+#supportHero {
+  background-color: #387ed1;
+  color: white;
+}
+
+#supportHero a {
+  color: white;
+}
+
+#supportHero div div a {
+  margin: 0 20px 15px 0;
+  font-size: 1.4rem;
+  text-decoration: underline;
+  line-height: 4rem;
+}
+
+#supportWrapper {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 100px;
+}
+
+#supportHero input {
+  padding: 10px 10px 10px 0;
+  margin: 2rem 0 2rem;
+  border-radius: 8px;
+  width: 100%;
+  font-size: 1.5rem;
+  background-color: #ffffff;
+  border-radius: 10px;
+  border: none;
+} 
